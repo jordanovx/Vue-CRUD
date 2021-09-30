@@ -1,4 +1,11 @@
 <template>
+  <nav aria-label="breadcrumb ">
+    <ol class="breadcrumb bg-transparent">
+      <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page">Tutorials</li>
+
+    </ol>
+  </nav>
   <div class="list row">
     <div class="col-md-6">
       <h4>Tutorials List</h4>
@@ -94,5 +101,7 @@ import TutorialDetails from "./Tutorial"
 </script>
 
 <style scoped>
-
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: ">";
+    }
 </style>

@@ -14,6 +14,7 @@
 
     <div class="container mt-3">
       <h2>Vue 3 Firebase CRUD Example</h2>
+
       <router-view/>
     </div>
   </div>
@@ -34,4 +35,6 @@ export default {
   text-align: center;
   margin: 25px auto;
 }
+
+
 </style>

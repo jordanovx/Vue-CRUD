@@ -1,4 +1,10 @@
 <template>
+  <nav aria-label="breadcrumb ">
+    <ol class="breadcrumb bg-transparent">
+      <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+      <li class="breadcrumb-item active" aria-current="page">Add</li>
+    </ol>
+  </nav>
   <div class="submit-form">
     <div v-if="!submitted">
       <div class="form-group">
@@ -79,5 +85,7 @@ import AppDataService from "../services/AppDataService";
 </script>
 
 <style scoped>
-
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: ">";
+    }
 </style>
