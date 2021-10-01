@@ -1,6 +1,5 @@
 # Vue CRUD Application with Firebase
 
-### Vue Router
 ### Vue Composition API 
 ### Vue Router 
 ### Bootstrap 
