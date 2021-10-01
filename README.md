@@ -1,5 +1,4 @@
-# vue-crud-firebase
-Vue CRUD Application with Firebase
+# Vue CRUD Application with Firebase
 
 ### Vue Router
 ### Vue Composition API 
